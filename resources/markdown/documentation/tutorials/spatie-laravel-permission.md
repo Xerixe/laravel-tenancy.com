@@ -19,7 +19,7 @@ We need to extend the 2 (`Permission`, `Role`) eloquent models of the Permission
 
 1. Create a Permission.php and Role.php file and place them inside your `app` directory, next to your `User.php`. Make sure that these files extend `Spatie\Permission\Models\Permission::class` and `Spatie\Permission\Models\Role::class` respectively.
 
-`App\Permission.php` - extends from `SpatieRole` and uses the `UsesTenantConnection` trait.
+`App\Permission.php` - extends from `SpatiePermission` and uses the `UsesTenantConnection` trait.
 ```php
 <?php
 
